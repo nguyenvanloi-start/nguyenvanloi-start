@@ -13,7 +13,9 @@ import threading
 import socket
 import os
 import time
-from termcolor import colored
+from termcolor import coloredcolored
+
+
 '||'''|.              \\      // '||` 
  ||   ||               \\    //   ||  
  ||   || .|''|, (''''   \\  //    ||  

